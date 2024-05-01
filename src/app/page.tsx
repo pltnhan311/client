@@ -6,10 +6,10 @@ export default function Home() {
     <main>
       <ul className='text-blue-600'>
         <li>
-          <Link href='/login'>Login</Link>
+          <Link href={'/login'}>Login</Link>
         </li>
         <li>
-          <Link href='/register'>Register</Link>
+          <Link href={'/register'}>Register</Link>
         </li>
       </ul>
       <ButtonRedirect />
