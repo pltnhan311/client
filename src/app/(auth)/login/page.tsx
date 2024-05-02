@@ -1,11 +1,11 @@
 'use client'
-import React, { useState } from 'react'
+import LoginForm from '@/app/(auth)/login/login-form'
+import React from 'react'
 export default function LoginPage() {
-  const [email, setEmail] = useState('nhan@gmail.com')
   return (
-    <>
-      <div>Login page</div>
-      <span>Email: {email}</span>
-    </>
+    <div className='m-5'>
+      <h1 className='text-xl font-semibold text-center mb-5 text-blue-500'>Đăng nhập</h1>
+      <LoginForm />
+    </div>
   )
 }
