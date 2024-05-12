@@ -10,6 +10,12 @@ export default function Home() {
         <li>
           <Link href={'/register'}>Register</Link>
         </li>
+        <li>
+          <Link href={'/blog'}>Blog</Link>
+        </li>
+        <li>
+          <Link href={'/products'}>Products</Link>
+        </li>
       </ul>
     </main>
   )
