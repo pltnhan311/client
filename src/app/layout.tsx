@@ -27,8 +27,24 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Header />
+          {/* <Header /> */}
+          <header
+            style={{
+              backgroundColor: 'skyblue',
+              padding: '1rem'
+            }}
+          >
+            <p>Header</p>
+          </header>
           {children}
+          <footer
+            style={{
+              backgroundColor: 'salmon',
+              padding: '1rem'
+            }}
+          >
+            <p>Footer</p>
+          </footer>
         </ThemeProvider>
       </body>
     </html>
